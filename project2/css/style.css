@@ -1,0 +1,163 @@
+/*GLOBAL*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+	font-size: 32px;
+	font-family: Inter;
+	background-color: #f8f5fb54;
+}
+
+
+/*Main*/
+
+#john{
+	display: none;
+
+}
+
+
+.container{
+	width:90%;
+	margin: 30px auto;
+}
+
+/*IMAGE PART*/
+
+.name .name-image{
+	background-image: url("../images/pattern-bg.svg");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size:100% 100%;
+	margin: auto;
+}
+.name .name-image img{
+	display:block;
+	margin: auto;
+	padding:30px 20px 60px;
+	width: 90%;
+}
+
+/*TOGGLE BUTTONS*/
+
+.name .name-image .icons{
+	position:relative;
+	background-color: white;
+	width: 80px;
+	max-width: 150px;
+	border-radius: 20px;
+	margin: auto;
+	margin-top: -80px;
+	margin-bottom: 20px;
+}
+.name .name-image .icons .prev{
+margin-left: 11px;
+padding-bottom: 3px;
+}
+.name .name-image .icons .next{
+margin-left: 33px;
+padding-bottom: 3px;
+}
+
+/*QUOTE PART*/
+
+.name .name-quote-container{
+	background-image: url("../images/pattern-quotes.svg");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size:15%;
+	border:1px solid transparent;
+	margin: auto;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.name .name-quote-container .name-quote{
+	font-family: Inter;
+	font-weight: 500;
+	margin-top: 30px;
+	font-size: 22px;
+	text-align: center;
+	line-height: 1em;
+}
+.name .name-quote-container .name-name{
+	margin-top: 30px;
+	font-weight: 700;
+	font-size: 20px;
+}
+.name .name-quote-container .name-designation{
+	font-size: 18px;
+	margin-bottom: 20px;
+	margin-top: 5px;
+	font-weight: 300;
+	color: #0e0e0e36;
+}
+/*FOOTER*/
+.container .footer{
+	height: 20vh;
+	margin-top: -70px;
+	background-image: url("../images/pattern-curve.svg");
+	background-repeat: no-repeat;
+	background-size: 80% 70%;
+}
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 900px){
+	.name .name-image{
+		float: right;
+		width: 50%;
+		padding-bottom: 40px;
+	}
+	.name .name-image .icons{
+		margin-left: 120px;
+	}
+	.name .name-quote-container{
+		padding-top: 70px;
+		padding-left: 50px;
+		background:url("../images/pattern-quotes.svg") no-repeat 100px 60px;
+		background-size: 10%;	
+	}
+	.name .name-quote-container .name-quote{
+	position: absolute;	
+	font-size: 30px;
+	width: 50%;
+	text-align: left;
+	line-height: 1.3em;
+	margin-left: 10px;
+	}
+	.name .name-quote-container .name-name,.name .name-quote-container .name-desigation{
+		margin-top: 220px;
+		text-align: left;
+		padding-left: 10px;
+		padding-top: 50px;
+		
+
+
+	}
+	.name .name-quote-container .name-designation{
+		text-align: left;
+		margin-left: 150px;
+		margin-top: -23px;
+		width:400px;
+		margin-bottom: 120px;
+
+
+	}
+	.container .footer{
+	height: 30vh;
+	margin-top: -70px;
+	background-size: 60% 120%;
+	margin-left: -60px;
+}
+
+
+	
+}
+
+
+
+
+
+

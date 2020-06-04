@@ -104,11 +104,13 @@ padding-bottom: 3px;
 
 /*MEDIA QUERIES*/
 
+
 @media (min-width: 900px){
 	.name .name-image{
 		float: right;
 		width: 50%;
 		padding-bottom: 40px;
+		margin-left: -150px;
 	}
 	.name .name-image .icons{
 		margin-left: 120px;
@@ -116,41 +118,32 @@ padding-bottom: 3px;
 	.name .name-quote-container{
 		padding-top: 70px;
 		padding-left: 50px;
-		background:url("../images/pattern-quotes.svg") no-repeat 100px 60px;
-		background-size: 10%;	
+		background:url("../images/pattern-quotes.svg") no-repeat 120px 140px;
+		background-size: 8%;
+
 	}
 	.name .name-quote-container .name-quote{
-	position: absolute;	
-	font-size: 30px;
-	width: 50%;
-	text-align: left;
-	line-height: 1.3em;
-	margin-left: 10px;
+		margin-top: 10%;
+		font-size: 1em;
+		line-height: 1em;
+		text-align: left;	
 	}
-	.name .name-quote-container .name-name,.name .name-quote-container .name-desigation{
-		margin-top: 220px;
+
+	.name .name-quote-container .title{
 		text-align: left;
-		padding-left: 10px;
-		padding-top: 50px;
-		
-
-
+		margin-top: 50px;
 	}
-	.name .name-quote-container .name-designation{
-		text-align: left;
-		margin-left: 150px;
-		margin-top: -23px;
-		width:400px;
-		margin-bottom: 120px;
-
-
+	.name .name-quote-container p{
+		margin: 0;
+		padding:0;
+		display: inline;
 	}
 	.container .footer{
+	background-image: url("../images/pattern-curve.svg");
+	background-repeat: no-repeat;
+	background-size: 50% 120%;	
 	height: 30vh;
-	margin-top: -70px;
-	background-size: 60% 120%;
-	margin-left: -60px;
-}
+	}
 
 
 	

@@ -104,7 +104,6 @@ padding-bottom: 3px;
 
 /*MEDIA QUERIES*/
 
-
 @media (min-width: 900px){
 	.name .name-image{
 		float: right;
